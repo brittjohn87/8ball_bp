@@ -1,7 +1,5 @@
 $("#8ball").click(function(){
-    prompt("Ask Me Anything?");
-    eightBall();
-    reset8ball();
+    
 });
 
 function eightBall(){
@@ -48,8 +46,7 @@ function eightBall(){
     }
     else {
         $('#response').html()
-    }
-    console.log(number);
+    }       
     $("#8ball").fadeOut(300);
     $('#answer').delay(300).fadeIn(200)
 }
